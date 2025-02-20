@@ -59,7 +59,7 @@ In summary, our topics of interest include, but are not limited to:
 <br>
 <ul>
 	<li>Multimodal Data Integration: Leveraging generative AI to fuse observational, simulation, and diverse data modalities for complex physical science challenges.</li>
-    </li>Scalable, Reliable, and Physically Informed Models: Developing large-scale generative AI systems that integrate domain expertise, enforce physical constraints, and incorporate uncertainty quantification.</li>
+    <li>Scalable, Reliable, and Physically Informed Models: Developing large-scale generative AI systems that integrate domain expertise, enforce physical constraints, and incorporate uncertainty quantification.</li>
 	<li>Bridging Multi-Scale Interactions: Overcoming computational challenges by modeling interactions across diverse scales with generative AI.</li>
 	<li>Evaluation Metrics for Scientific AI: Establishing robust standards to assess the reliability, safety, and performance of generative models in physical sciences.</li>
 	<li>Data-Driven Augmentation of Physics-Based Simulations: Enhancing traditional simulation methods with insights from generative AI.</li>
@@ -74,16 +74,16 @@ In summary, our topics of interest include, but are not limited to:
 </p>
 
 
-<h2 class="blackpar_title" id="speakers">Industrial Panelists</h2>
+<!-- <h2 class="blackpar_title" id="speakers">Industrial Panelists</h2>
 <p>
 {% include panelists.html %}
-</p>
+</p> -->
 
 <!-- Schedule -->
-<h2 class="blackpar_title" id="schedule">Schedule (New Orleans Time Zone)</h2>
+<!-- <h2 class="blackpar_title" id="schedule">Schedule (New Orleans Time Zone)</h2>
 <p>
 {% include schedule.html %}
-</p>
+</p> -->
 
 <!-- Organizers -->
 <h2 class="blackpar_title" id="organizers">Organizers</h2>
@@ -91,7 +91,7 @@ In summary, our topics of interest include, but are not limited to:
 {% include organizers.html %}
 </p>
 
-<h2 class="blackpar_title" id="Organizers">Volunteers</h2>
+<!-- <h2 class="blackpar_title" id="Organizers">Volunteers</h2>
 <div class="row_perso">
 	<div class="card_perso column_perso justify-content-center" style="margin-left:24%;">
 	  <img src="/images/khalil_bibi.png" alt="Khalil Bibi" class="img_card_perso">
@@ -117,7 +117,7 @@ In summary, our topics of interest include, but are not limited to:
 		</center>
 	  </div>
 	</div>
-</div>
+</div> -->
 
 
 <br><br>
@@ -129,7 +129,7 @@ In summary, our topics of interest include, but are not limited to:
 </p>
 <br><br>
 
-<h2 class="blackpar_title">Platinium Sponsor</h2>
+<!-- <h2 class="blackpar_title">Platinium Sponsor</h2>
 <div class="row">
 	<div class="col">
 		<center>
@@ -155,4 +155,4 @@ In summary, our topics of interest include, but are not limited to:
 			<img src="/images/rbc_logo.svg" width="250px">
 		</center>
 	</div>
-</div>
+</div> -->
