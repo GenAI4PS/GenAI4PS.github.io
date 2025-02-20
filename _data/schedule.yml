@@ -1,68 +1,67 @@
-schedule:
-  - title: Opening Remarks
-    time: 08:50 – 09:00
-    whole_line: true
+- title: Opening Remarks
+  time: 08:50 – 09:00
+  whole_line: true
   
-  - title: Keynote Talk 1
-    time: 09:00 – 09:30
-    whole_line: false
-    details: "25-minute talk + 5-minute Q&A"
+- title: Keynote Talk 1
+  time: 09:00 – 09:30
+  whole_line: false
+  details: "25-minute talk + 5-minute Q&A"
   
-  - title: Keynote Talk 2
-    time: 09:30 – 10:00
-    whole_line: false
-    details: "25-minute talk + 5-minute Q&A"
+- title: Keynote Talk 2
+  time: 09:30 – 10:00
+  whole_line: false
+  details: "25-minute talk + 5-minute Q&A"
   
-  - title: Keynote Talk 3
-    time: 10:00 – 10:30
-    whole_line: false
-    details: "25-minute talk + 5-minute Q&A"
+- title: Keynote Talk 3
+  time: 10:00 – 10:30
+  whole_line: false
+  details: "25-minute talk + 5-minute Q&A"
   
-  - title: Break
-    time: 10:30 – 10:40
-    whole_line: true
+- title: Break
+  time: 10:30 – 10:40
+  whole_line: true
   
-  - title: Spotlight Talks Session 1
-    time: 10:40 – 11:40
-    whole_line: false
-    details: "5 selected papers, 10-minute talk + 2-minute Q&A each"
+- title: Spotlight Talks Session 1
+  time: 10:40 – 11:40
+  whole_line: false
+  details: "5 selected papers, 10-minute talk + 2-minute Q&A each"
   
-  - title: Poster Session 1
-    time: 11:40 – 12:40
-    whole_line: false
-    details: "Interactive discussions with authors"
+- title: Poster Session 1
+  time: 11:40 – 12:40
+  whole_line: false
+  details: "Interactive discussions with authors"
   
-  - title: Lunch & Networking Break
-    time: 12:40 – 13:25
-    whole_line: true
-    details: "45 minutes"
+- title: Lunch & Networking Break
+  time: 12:40 – 13:25
+  whole_line: true
+  details: "45 minutes"
   
-  - title: Keynote Talk 4
-    time: 13:25 – 13:55
-    whole_line: false
-    details: "25-minute talk + 5-minute Q&A"
+- title: Keynote Talk 4
+  time: 13:25 – 13:55
+  whole_line: false
+  details: "25-minute talk + 5-minute Q&A"
   
-  - title: Spotlight Talks Session 2
-    time: 13:55 – 14:55
-    whole_line: false
-    details: "5 selected papers, 10-minute talk + 2-minute Q&A each"
+- title: Spotlight Talks Session 2
+  time: 13:55 – 14:55
+  whole_line: false
+  details: "5 selected papers, 10-minute talk + 2-minute Q&A each"
   
-  - title: Poster Session 2
-    time: 14:55 – 15:55
-    whole_line: false
-    details: "Continued discussions and networking"
+- title: Poster Session 2
+  time: 14:55 – 15:55
+  whole_line: false
+  details: "Continued discussions and networking"
   
-  - title: Panel Discussion: "Generative AI for Scientific Discovery—Challenges and Opportunities"
-    time: 15:55 – 16:55
-    whole_line: false
-    details: "Featuring experts from academia, industry, and national labs."
+- title: Panel Discussion: "Generative AI for Scientific Discovery—Challenges and Opportunities"
+  time: 15:55 – 16:55
+  whole_line: false
+  details: "Featuring experts from academia, industry, and national labs."
   
-  - title: Closing Remarks & Future Directions
-    time: 16:55 – 17:00
-    whole_line: true
+- title: Closing Remarks & Future Directions
+  time: 16:55 – 17:00
+  whole_line: true
   
-  - title: Offsite Social Event
-    time: 18:00 – 20:00
-    whole_line: true
-    details: "Encouraging informal networking across disciplines"
+- title: Offsite Social Event
+  time: 18:00 – 20:00
+  whole_line: true
+  details: "Encouraging informal networking across disciplines"
 
