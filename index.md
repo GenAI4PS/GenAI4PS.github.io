@@ -9,22 +9,22 @@ layout: home
 ---
 <div style="font-family: 'Source Sans Pro', sans-serif; background: url('/images/banner_no_text.png') no-repeat; background-size: cover; user-select: none;">
 	<center>
-		<h2 class="blackpar_title" >The 2<sup>nd</sup> workshop on<br>Efficient Natural Language and Speech Processing (ENLSP)</h2>
-		<h3 class="blackpar_title">Friday Dec. 2nd 2022, New Orleans <br> <b>In-person</b> (Ballroom C) and <b>Virtual</b> </h3>
+		<h2 class="blackpar_title" >The 2<sup>nd</sup> workshop on<br>Frontiers of Generative AI in Physical Sciences: Foundations, Challenges, and Opportunities (GenAI4PS)</h2>
+		<h3 class="blackpar_title"> <br> <b>In-person</b>  and <b>Virtual</b> </h3>
 	</center>
 </div>
 <br>
-<div class="alert alert-danger" role="alert">
+<!-- <div class="alert alert-danger" role="alert">
 	<center>
 		<i class="bi bi-info-circle"></i>
 		<br>
 		<b>The latest version of the worshop (NeurIPS ENLSP 2024) is out, you can check it on the new <a href="https://neurips2024-enlsp.github.io/">website</a>.</b>
 	</center>
-</div>
+</div> -->
 <br>
-<p>
+<!-- <p>
 The second version of the Efficient Natural Language and Speech Processing (ENLSP-II) workshop focuses on fundamental and challenging problems to make natural language and speech processing (especially pre-trained models) more efficient in terms of <b>Data, Model, Training, and Inference</b>. The workshop program offers an interactive platform for gathering different experts and talents from academia and industry through invited talks, panel discussion, paper submissions, reviews, interactive posters, oral presentations and a mentorship program. This will be a unique opportunity to address the efficiency issues of current models, build connections, exchange ideas and brainstorm solutions, and foster future collaborations. The topics of this workshop can be of interest for people working on general machine learning, deep learning, optimization, theory and NLP & Speech applications.
-</p>
+</p> -->
 
 <br>
 
@@ -48,100 +48,24 @@ The second version of the Efficient Natural Language and Speech Processing (ENLS
 
 <h2 class="blackpar_title" id="overview">Overview</h2>
 <p>
-Pre-training a general model using self-supervised learning on huge amount of data and then fine-tuning that model on a specific task has become a generic paradigm in solving many natural language and speech processing tasks. Since then, we have had different types of pre-trained models (e.g. encoder-only such as BERT, decoder-only such as GPT, encoder-decoder such as T5) in very diverse range of scales (from millions to
-more than 500 billion parameters) for different tasks.
+Generative AI, particularly foundation models, is revolutionizing scientific discovery, simulation, and inference across the physical sciences. Traditional computational methods often become computationally intractable when modeling interactions spanning diverse scales and integrating heterogeneous data modalities. Generative AI addresses these challenges by learning latent representations that bridge these gaps and augment physics-based simulations with data-driven insights. In physics, such models can unify observational and simulated data, enabling high-resolution reconstructions of complex structures. In earth sciences, generative AI trained on extensive reanalysis datasets offers faster and more versatile capabilities than traditional numerical weather prediction, improving forecasting, climate modeling, and data assimilation. In materials science, generative approaches that leverage multimodal data sources accelerate materials discovery by efficiently navigating large compositional spaces and predicting novel compounds with tailored properties.
 <br><br>
-There has been a common practice in the literature to increase the number of parameters of these pre-trained models to improve their performance or their zero/few-shot abilities. Despite the great success of these pre-trained models, it is evident that most of them are largely over-parameterized and their efficiency is under question. Training or deploying these models on devices or even cloud services with limited memory and computational power can be very expensive and challenging. For example, Megatron-Turing with 530B parameters has shown state-of-the-art results in many NLP tasks, but at the cost of using 560 DGX A100 nodes (more than 4000 NVIDIA A100) for training and using more than 300B tokens data. Moreover, delivering such huge models as a service to different clients will require different copies of the model for different tasks. Even fine-tuning the entire large model over a small labeled dataset can lead to overfitting. Therefore, it is of vital importance to invest on future of pre-trained models by enhancing their efficiency in terms of data, modeling, training and inference from different perspectives highlighted in this workshop.
+Despite these advancements, ensuring the scientific reliability of generative AI remains a formidable challenge. Scaling models to billions of parameters enhances their generative capacity, but raises fundamental questions about robustness, uncertainty quantification, and adherence to physical principles. The interplay between scale and reliability requires new strategies for integrating domain knowledge, physical constraints, and uncertainty-aware generative models. This workshop will bring together researchers from academia, national laboratories, and industry to explore how generative AI can be systematically aligned with the demands of scientific discovery. Discussions will focus on methods for scaling models while preserving physical validity, multimodal coherence, and generalization across scientific regimes. By fostering interdisciplinary collaboration, this workshop aims to define a roadmap for building generative AI systems that are scalable, trustworthy, interpretable, and robust in advancing our understanding of the physical sciences.
 </p>
 <br>
 <!-- Call for Papers -->
 <h2 class="blackpar_title" id="call_for_papers">Call for Papers</h2>
-We would like to share some fundamental challenges on improving efficiency of pre- trained models and encourage the NeurIPS community to submit their solutions, ideas, and ongoing work concerning data, model, training, and inference efficiency for NLP and speech processing. The scope of this workshop includes, but not limited to, the following topics:
-
-<b>Efficient Pre-Training</b> Pre-training is a very expensive process. Even a small modification to the configuration of the models requires the user to redo pre-training.
+In summary, our topics of interest include, but are not limited to:
 <br>
 <ul>
-	<li>Accelerating the pre-training process</li>
-	<li>Continual/Life-long pre-training and adapting pre-trained models to a new domain</li>
-	<li>Efficient initialization and hyper-parameter tuning (HPT)</li>
-	<li>Better pre-training self-supervised objectives</li>
-	<li>Multi-domain pre-training</li>
-	<li>Data vs. Scale of pre-trained models</li>
-	<li>Pre-training Multimodal (e.g., text–speech) models</li>
-	<li>New efficient architectures for pre-trained models</li>
+	<li>Multimodal Data Integration: Leveraging generative AI to fuse observational, simulation, and diverse data modalities for complex physical science challenges.</li>
+    </li>Scalable, Reliable, and Physically Informed Models: Developing large-scale generative AI systems that integrate domain expertise, enforce physical constraints, and incorporate uncertainty quantification.</li>
+	<li>Bridging Multi-Scale Interactions: Overcoming computational challenges by modeling interactions across diverse scales with generative AI.</li>
+	<li>Evaluation Metrics for Scientific AI: Establishing robust standards to assess the reliability, safety, and performance of generative models in physical sciences.</li>
+	<li>Data-Driven Augmentation of Physics-Based Simulations: Enhancing traditional simulation methods with insights from generative AI.</li>
+	<li>Interpretability in Generative AI: Developing transparent techniques to ensure trustworthiness and understanding in AI-driven scientific research.</li>
 </ul>
 
-
-<b>Efficient Fine-tuning</b> Fine-tuning large pre-trained models on downstream tasks can be challenging because pre-trained models are very over-parameterized.
-<br>
-<ul>
-	<li>Parameter-efficient tuning solutions to tune only a portion of the entire network (e.g. adapters)</li>
-	<li>Efficient prompt-based fine-tuning</li>
-	<li>Accelerating the fine-tuning process (e.g. optimizer, and layer-skipping)</li>
-	<li>Efficient federated learning for NLP: reduce the communication costs, tackling heterogeneous data, heterogeneous models.</li>
-</ul>
-
-
-<b>Data Efficiency</b> Pre-trained models rely on a huge amount of unlabeled data which makes the training very sample inefficient.
-<br>
-<ul>
-	<li>Sample efficient training, training with less data, few-shot and zero-shot learning</li>
-	<li>Sample efficient data-augmentation, identifying which training samples should be augmented</li>
-	<li>Data compression, data distillation</li>
-	<li>Data selection, how to improve the quality of pre-training data</li>
-</ul>
-
-<b>Inference Efficiency</b> How can we reduce the inference time or memory footprint of a trained model for a particular task?
-<br>
-<ul>
-	<li>Neural model compression techniques such as quantization, pruning, layer decomposition and knowledge distillation (KD) for NLP and Speech</li>
-	<li>Impact of different compression techniques on the inductive biases learned by the original models</li>
-	<li>Combined compression techniques for more efficient NLP and speech models</li>
-	<li>Improving efficiency of KD by removing the teacher</li>
-	<li>Extreme model compression (high compression ratio) for very large pre-trained language models</li>
-</ul>
-
-<b>Special Track) Efficient Graph Learning for NLP</b>
-<br>
-<ul>
-	<li>Automatically transforming natural language into graph-structured data</li>
-	<li>Representation learning on multi-relational or heterogeneous graphs</li>
-	<li>Learning the mapping between complex data structures, like Graph2Seq, Graph2Tree, Graph2Graph</li>
-	<li>Graph learning with pre-trained language models</li>
-</ul>
-
-<b>Other Efficient Applications</b> Pre-trained models are used in many tasks in NLP that efficiency can be their concern.
-<br>
-<ul>
-	<li>Efficient Dense Retrieval</li>
-	<li>Large language model as a service</li>
-	<li>Training models on device</li>
-	<li>Incorporating external knowledge into pre-trained models</li>
-	<li>Unifying different pre-training models</li>
-</ul>
-
-<br>
-
-<h2 class="blackpar_title">Submission Instructions</h2>
-<p>
-You are invited to submit your papers in our CMT submission <a href="https://cmt3.research.microsoft.com/ENLSP2022">portal</a>. All the submitted papers have to be anonymous for double-blind review. We expect each paper will be reviewed by at least three reviewers. The content of the paper (excluding the references and supplementary materials) should not be longer than 4 pages, strictly following the NeurIPS template style (which can be found <a href="https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles">here</a>). 
-<br /><br />
-Authors can submit up to 100 MB of supplementary materials separately. Authors are highly encouraged to submit their codes for reproducibility purposes. According to the guideline of the NeurIPS workshops, already published papers are not encouraged for submission, but you are allowed to submit your ArXiv papers or the ones which are under submission. Moreover, a work that is presented at the main NeurIPS conference should not appear in a workshop. Please make sure to indicate the complete list of conflict of interests for all the authors of your paper. To encourage higher quality submissions, our sponsors are offering the <b>Best Paper</b> and the <b>Best Poster</b> Award to qualified outstanding original oral and poster presentations (upon nomination of the reviewers). Also, we will give one <b>outstading paper certification</b> for our special track of efficient graph learning for NLP.Bear in mind that our workshop is not archival, but the accepted papers will be hosted on the workshop website.
- 
-
-</p>
-
-<br>
-
-<h2 class="blackpar_title">Important Dates:</h2>
-<p>
-<ul>
-	<li>Submission Deadline: <strike> September 25, 2022 AOE </strike> </li>
-	<li>Acceptance Notification: <strike> October 20, 2022 AOE </strike> </li>
-	<li>Camera-Ready Submission: <strike> November 1, 2022 AOE </strike> </li>
-	<li>Workshop Date: <b>Friday December 2, 2022</b> (in-person and virtual)</li>
-</ul>
-</p>
 
 <!--Confirmed Speakers-->
 <h2 class="blackpar_title" id="speakers">Confirmed Speakers</h2>
