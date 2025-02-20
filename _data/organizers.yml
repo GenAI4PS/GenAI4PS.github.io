@@ -1,0 +1,25 @@
+- num_row: 0
+  organizers:
+    - name: Sandeep Madireddy
+      affiliation: Argonne National Laboratory
+      photo: sandeep_madireddy.jpg
+    - name: Aditya Grover
+      affiliation: University of California, Los Angeles
+      photo: aditya_grover.jpg
+    - name: Troy Arcomano
+      affiliation: Argonne National Laboratory/Allen Institute for AI
+      photo: Troy_Arcomano.jpg
+    - name: Bo Li
+      affiliation: University of Chicago/VirtueAI
+      photo: Bo_Li.jpg
+- num_row: 1
+  organizers:
+    - name: Ian Foster
+      affiliation: Argonne National Laboratory/University of Chicago
+      photo: ian_foster.jpg
+    - name: Prasanna Balaprakash
+      affiliation: Oak Ridge National Laboratory
+      photo: prasanna_balaprakash.jpg
+    - name: Yuan-Sen Ting
+      affiliation: Ohio State University
+      photo: yuansen_ting.jpg
