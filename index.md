@@ -80,10 +80,10 @@ In summary, our topics of interest include, but are not limited to:
 </p> -->
 
 <!-- Schedule -->
-<!-- <h2 class="blackpar_title" id="schedule">Schedule (New Orleans Time Zone)</h2>
+<h2 class="blackpar_title" id="schedule">Schedule (New Orleans Time Zone)</h2>
 <p>
 {% include schedule.html %}
-</p> -->
+</p>
 
 <!-- Organizers -->
 <h2 class="blackpar_title" id="organizers">Organizers</h2>
