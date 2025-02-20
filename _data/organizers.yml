@@ -8,10 +8,10 @@
       photo: aditya_grover.jpg
     - name: Troy Arcomano
       affiliation: Argonne National Laboratory/Allen Institute for AI
-      photo: Troy_Arcomano.jpg
+      photo: troy_arcomano.jpg
     - name: Bo Li
       affiliation: University of Chicago/VirtueAI
-      photo: Bo_Li.jpg
+      photo: bo_li.jpg
 - num_row: 1
   organizers:
     - name: Ian Foster
